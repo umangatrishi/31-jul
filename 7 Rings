@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int n,x;
+        cin>>n>>x;
+        // your code goes here
+        int totalbill=n*x;
+        if(totalbill>=10000&&totalbill<=99999)
+        std::cout << "YES" << std::endl;
+        else
+        cout<<"NO"<<endl;
+    }
+
+}
